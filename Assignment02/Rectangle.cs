@@ -10,9 +10,9 @@ namespace Assignment02
     {
         private int length, width;
 
-        public Rectangle(int width, int height)
+        public Rectangle(int length , int width)
         {
-            this.length = height;
+            this.length = length;
             this.width = width;
 
         }
